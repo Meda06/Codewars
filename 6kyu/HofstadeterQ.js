@@ -12,7 +12,7 @@
 
 // The function produces the sequence
 
-function hofstadterQ(n) {
+function hofstadterQ(n) {  
     const memo={}
      function computeQ(k) {
         if (k === 1 || k === 2) {
